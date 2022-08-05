@@ -8,6 +8,7 @@
 }
 
 
+<<<<<<< HEAD
 /* ENRICO HEADER */
 
 .padre {
@@ -54,3 +55,34 @@ header {
     font-size: 80px;
     
 }
+
+
+/* Header */
+* {
+    box-sizing: border-box;
+  }
+
+  .font1-main{
+     font-size: 10px;
+  }
+  
+  .line {
+    line-height: normal;
+    color: black ;
+  }
+
+  .darkred{
+    color: darkred;
+  }
+
+  h2{
+    color: darkred;
+  }
+
+  .btn-main{
+    background-color: darkred;
+    color: white;
+    text-transform: uppercase;
+    border-radius: none;
+  }
+>>>>>>> 72681a9d6da27502c6defa52bce3120871d65410

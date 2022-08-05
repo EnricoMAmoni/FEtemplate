@@ -1,8 +1,27 @@
 *{
     font-family: 'Montserrat', sans-serif;
-    color: #C67F7F;
 }
 
 :root{
     --dark-red:#C67F7F;
+}
+
+/* SIMONE FOOTER */
+
+
+
+.S-card-team {
+    font-size: 10px;
+    border: 0px;
+}
+
+.S-card-body-team {
+    padding: 0;
+}
+
+.S-img-team {
+    width: 130px;
+    padding: 5px;
+    border: 3px solid darkred;
+    border-radius: 50%;
 }

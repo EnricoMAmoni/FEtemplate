@@ -1,8 +1,38 @@
 *{
     font-family: 'Montserrat', sans-serif;
-    color: #C67F7F;
 }
 
 :root{
     --dark-red:#C67F7F;
 }
+
+
+
+/* Header */
+* {
+    box-sizing: border-box;
+  }
+
+  .font1-main{
+     font-size: 10px;
+  }
+  
+  .line {
+    line-height: normal;
+    color: black ;
+  }
+
+  .darkred{
+    color: darkred;
+  }
+
+  h2{
+    color: darkred;
+  }
+
+  .btn-main{
+    background-color: darkred;
+    color: white;
+    text-transform: uppercase;
+    border-radius: none;
+  }

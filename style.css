@@ -31,34 +31,60 @@ li {
     background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
-   
+    height: 78vh;
+
 }
 
-.bg-header2 {
-    background-image: url(/media/header-white.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: cover;
+.mask1 {
+    -webkit-mask-image: linear-gradient(to top,black, transparent);
+    mask-image: linear-gradient(to top,black, transparent);
+  }
+
+
+.bg2{
+    padding: 0%;
+    position: absolute;
+    right: 0%;
+    bottom: 15%;
+}
+
+.row-head{
+    height: 70vh;
+    width: 100%;
+}
+
+
+
+.h1-header{
+    height: 70vh;
     
-    
 }
 
-header {
-    height: 150vh;
-}
-
-.text-main {
-    height: 50vh;
-    
-}
-
-.text-main-size {
+h1{
     font-size: 80px;
-    
+    text-align: center;    
+    text-transform: uppercase;
+    color: darkred;
+    position: absolute;
+    right: 43%;
+    bottom: 55%;
+
 }
 
 
-/* Header */
+
+/* Main*/
+.font-main{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.font-main2{
+    color: darkred;
+    font-size: 50px;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -111,6 +137,19 @@ header {
     color: darkred;
 }
 
+.S-spacer {
+    width: 100%;
+    height: 200px;
+    background-color: #ececec;
+}
+
+.S-spacer-dark {
+    width: 100%;
+    height: 200px;
+    background-color: darkred;
+}
+
+
 .S-card-team {
     font-size: 18px;
     border: 0px;
@@ -139,7 +178,7 @@ header {
 }
 
 .S-img-benefits {
-    width: 500px;
+    width: 400px;
     padding: 15px;
     border: 4px solid darkred;
     border-radius: 50%;

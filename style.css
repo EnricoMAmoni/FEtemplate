@@ -85,7 +85,14 @@ header {
     color: white;
     text-transform: uppercase;
     border-radius: none;
+
   }
+
+   .line{
+    background-color: Blue;
+    width: 60px;
+    height: 2px;
+    }
 
 
 
